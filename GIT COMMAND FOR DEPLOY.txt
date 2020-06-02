@@ -1,0 +1,36 @@
+make a git repository
+paste your complete web project
+add commit
+apply git push
+then open cmd
+surge login
+surge 
+select folder for deployment
+webhook for runtime changes 
+go to action to your repository
+setup a newwork flow with new yml extension name
+remove pull request
+make yml file
+
+name: salt
+
+on:
+  push:
+    branches: [ master ]
+
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Installing Node
+      uses: actions/setup-node@v2-beta
+      with:
+        node-version: 12 
+    - name: installing surge
+      run: npm install --global surge
+    - name: deploying using surge
+      run: surge ./ salt2020.surge.sh --token  ${{ secrets.SALT}}
