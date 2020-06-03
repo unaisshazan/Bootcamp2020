@@ -194,7 +194,7 @@ html, body {
   content: '';
 }
 
-.video-container iframe {
+.video-container iframe, .video-container img  {
   position: absolute;
   top: 0;
   left: 0;
