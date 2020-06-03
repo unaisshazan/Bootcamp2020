@@ -9,15 +9,15 @@ div.jumbotron.carousel-hero {
 }
 
 div.jumbotron.hero-nature {
-  background-image: url('../../assets/img/architect-at-the-construction.jpg');
+  background-image: url('https://i.ibb.co/F4Sc7yC/log-in.png');
 }
 
 div.jumbotron.hero-photography {
-  background-image: url('../../assets/img/architects-and-worker.jpg');
+  background-image: url('https://i.ibb.co/1zbmH44/selecting-route.png');
 }
 
 div.jumbotron.hero-technology {
-  background-image: url('../../assets/img/young-college-students.jpg');
+  background-image: url('https://i.ibb.co/F4Sc7yC/log-in.png');
 }
 
 h1.hero-title, h2.hero-title, h3.hero-title {
@@ -29,7 +29,7 @@ p.hero-subtitle {
   max-width: 600px;
   margin: 25px auto;
   padding: 10px 15px;
-  color: #fff;
+  color: black;
 }
 
 .plat {
