@@ -23,7 +23,6 @@
             font-size: 20 !important;
             font-weight: 300 !important;
         }
-
         .nav-style:hover {
             color: black !important;
             font-size: 23 !important;
@@ -32,38 +31,10 @@
 
         }
     </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            // Add smooth scrolling to all links
-            $("a").on('click', function (event) {
-
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
-
-                    // Store hash
-                    var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function () {
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-        });
-    </script>
 </head>
 
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-info clean-navbar">
-<<<<<<< HEAD
         <div class="container"><a class="navbar-brand logo" style="color: white !important; font-weight: bolder; font-size: 50;" href="index.html"> <img src="logo.jpg" width="100" height="75"> </a><button data-toggle="collapse"
                 class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
                     class="navbar-toggler-icon"></span></button>
@@ -75,35 +46,14 @@
                     <li class="nav-item" role="presentation"><a class="nav-link nav-style" href="#pricing">Pricing</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link nav-style" href="/registration" target="_blank">Sign up</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link nav-style" href="/login" target="_blank">login</a></li>
-=======
-        <div class="container"><a class="navbar-brand logo"
-                style="color: white !important; font-weight: bolder; font-size: 50;" href="index.html">Evrimo</a><button
-                data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle
-                    navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active nav-style"
-                            href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link nav-style" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link nav-style"
-                            href="#tutorials">Tutorials</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link nav-style" href="#pricing">Pricing</a>
-                    </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link nav-style" href="/registration"
-                            target="blank">Sign up</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link nav-style" href="/login"
-                            target="blank">login</a></li>
->>>>>>> 19a4f71d9325124529658100615c4b88f0e16754
                     <li class="nav-item" role="presentation"></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link nav-style" href="#contact">Contact
-                            Us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link nav-style" href="#contact">Contact Us</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <main class="page landing-page">
-        <section>
+        <section >
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"
                 style="border: 3px solid white;">
                 <div class="carousel-inner">
@@ -230,94 +180,67 @@
                     </div>
                 </div>
             </div>
-            <section id="features" class="clean-block" style="background-color: ;">
-                <section id="pricing" class="clean-block clean-pricing dark page pricing-table-page"
-                    style="background-color: #EDF2F6; ;">
-                    <div class="container">
-                        <div class="block-heading">
-                            <h2>Pricing Table</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec
-                                auctor in, mattis vitae leo.</p>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-md-5 col-lg-4" style="margin-bottom: 30px;">
-                                <div class="clean-pricing-item">
-                                    <div class="ribbon"><span>Best Value</span></div>
-                                    <div class="heading">
-                                        <h3>BASIC</h3>
-                                    </div>
-                                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
-                                    <div class="features">
-                                        <h4><span class="feature">Cost: &nbsp;</span><span>$20</span></h4>
-                                        <h4><span class="feature">Cost per destination:&nbsp;</span><span></span></h4>
-                                        <h4><span class="feature">Customer Service:&nbsp;</span><span>Yes</span></h4>
-                                    </div>
-                                    <div class="price">
-                                        <!-- <h4>$20</h4> -->
-                                    </div>
-                                    <!-- <button class="btn btn-primary btn-block" type="button">BUY NOW</button> -->
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-lg-4">
-                                <div class="clean-pricing-item">
-                                    <div class="ribbon"><span>Best Value</span></div>
-                                    <div class="heading">
-                                        <h3>PRO</h3>
-                                    </div>
-                                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
-                                    <div class="features">
-                                        <h4><span class="feature">Cost: &nbsp;</span><span>$20</span></h4>
-                                        <h4><span class="feature">Cost per destination:&nbsp;</span><span></span></h4>
-                                        <h4><span class="feature">Customer Service:&nbsp;</span><span>Yes</span></h4>
-                                    </div>
-                                    <div class="price">
-                                        <!-- <h4>$20</h4> -->
-                                    </div>
-                                    <!-- <button class="btn btn-primary btn-block" type="button">BUY NOW</button> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </section>
-            <section id="contact" class="clean-block clean-form  page contact-us-page">
+        <section id="features" class="clean-block" style="background-color: ;">
+            <section id="pricing" class="clean-block clean-pricing dark page pricing-table-page" style="background-color: #EDF2F6; ;">
                 <div class="container">
                     <div class="block-heading">
-                        <h2>Contact Us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor
-                            in, mattis vitae leo.</p>
+                        <h2>Pricing Table</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
                     </div>
-                    <form>
-                        <div class="form-group"><label>Name</label><input class="form-control" type="text"></div>
-                        <div class="form-group"><label>Subject</label><input class="form-control" type="text"></div>
-                        <div class="form-group"><label>Email</label><input class="form-control" type="email"></div>
-                        <div class="form-group"><label>Message</label><textarea class="form-control"></textarea></div>
-                        <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Send</button>
-                        </div>
-                    </form>
-                </div>
-            </section>
-            <section class="clean-block about-us">
-                <div class="svg-container colornanni">
-                    <div class="waveWrapper waveAnimation">
-                        <div class="waveWrapperInner bgTop">
-                            <div class="wave waveTop"
-                                style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')">
-                            </div>
-                        </div>
-                        <div class="waveWrapperInner bgMiddle">
-                            <div class="wave waveMiddle"
-                                style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')">
-                            </div>
-                        </div>
-                        <div class="waveWrapperInner bgBottom">
-                            <div class="wave waveBottom"
-                                style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')">
-                            </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-5 col-lg-4">
+                            <div class="clean-pricing-item">
+                                <div class="ribbon"><span>Best Value</span></div>
+                                <div class="heading">
+                                    <h3>PRO</h3>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div class="features">
+                                    <h4><span class="feature">Full Support:&nbsp;</span><span>Yes</span></h4>
+                                    <h4><span class="feature">Duration:&nbsp;</span><span>60 Days</span></h4>
+                                    <h4><span class="feature">Storage:&nbsp;</span><span>50GB</span></h4>
+                                </div>
+                                <div class="price">
+                                    <h4>$50</h4>
+                                </div><button class="btn btn-primary btn-block" type="button">BUY NOW</button></div>
                         </div>
                     </div>
                 </div>
             </section>
+        </section>
+        <section id="contact" class="clean-block clean-form  page contact-us-page">
+            <div class="container">
+                <div class="block-heading">
+                    <h2>Contact Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                </div>
+                <form>
+                    <div class="form-group"><label>Name</label><input class="form-control" type="text"></div>
+                    <div class="form-group"><label>Subject</label><input class="form-control" type="text"></div>
+                    <div class="form-group"><label>Email</label><input class="form-control" type="email"></div>
+                    <div class="form-group"><label>Message</label><textarea class="form-control"></textarea></div>
+                    <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Send</button></div>
+                </form>
+            </div>
+        </section>
+        <section class="clean-block about-us">
+            <div class="svg-container colornanni">
+                <div class="waveWrapper waveAnimation">
+                    <div class="waveWrapperInner bgTop">
+                        <div class="wave waveTop"
+                            style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+                    </div>
+                    <div class="waveWrapperInner bgMiddle">
+                        <div class="wave waveMiddle"
+                            style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+                    </div>
+                    <div class="waveWrapperInner bgBottom">
+                        <div class="wave waveBottom"
+                            style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="row">
@@ -345,9 +268,9 @@
                 <h4>About the company</h4>
                 <p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu
                     auctor lacus vehicula sit amet. </p>
-                <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-                            class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i
-                            class="fa fa-github"></i></a></div>
+                <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a
+                        href="#"><i class="fa fa-twitter"></i></a><a href="#"><i
+                            class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
             </div>
         </div>
     </footer>
