@@ -1,1 +1,1 @@
-wwww.salt2020.surge.sh
+http://salt2020.surge.sh/index.html
