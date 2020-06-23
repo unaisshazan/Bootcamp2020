@@ -1,0 +1,118 @@
+  /*
+  ========================================================================
+  VERSION : 1.0
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Template Name   : RD-ELLA
+  Author          : RAHUL DAS
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Copyright (c) 2018 
+  ========================================================================
+  */
+  /* Medium Layout: 1280px. */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
+	
+	
+	
+	
+	
+  }
+  /*   ***** Tablet Layout: 768px.  ******     */
+  @media only screen and (min-width: 768px) and (max-width: 991px) { 
+   
+   
+   .button-small {
+    padding: 10px 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+   
+
+   
+      .our-team { 
+    margin-bottom: 10px;
+}
+       
+   
+   
+   
+  }
+  /*  ***** Mobile Layout: 320px. *****    */
+  @media only screen and (max-width: 767px) { 
+   
+   .home-text {
+     position: absolute;
+   bottom:50%;
+   right:50%;
+   transform: translate(50%,50%);
+    width: 90%;
+}
+      
+      .coming-text h1 {
+    
+    font-size: 45px;
+    letter-spacing: 1px;
+   
+}
+   #typed {
+   
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+   
+    .typed-cursor {
+  color: #fff;
+  font-size: 12px;
+}  
+      
+ .mybtn{
+    margin-top: 25px;
+     text-align: center;
+}  
+      
+  
+    
+      .our-team { 
+    margin-bottom: 10px;
+}  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+   
+   
+   
+   
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 360px) and (max-width: 767px) { 
+
+#typed {
+   
+    font-size: 14px;
+    letter-spacing: 1px;
+   
+}
+
+
+    .typed-cursor {
+  color: #fff;
+  font-size: 14px;
+}  
+
+ .coming-text h1 {
+    
+    font-size: 52px;
+    letter-spacing: 1px;
+   
+}
+
+
+
+}
